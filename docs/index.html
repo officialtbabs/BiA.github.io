@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Estate</title>
+    <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/style.css" />
+    <script src="/static/scripts/modernizr-2.6.2.js"></script>
+</head>
+
+<body>
+    <div id="header" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand"><i><img width="85" height="50" src="/static/images/BiA.png"/></i></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home"><i class="glyphicon glyphicon-home"></i>Home</a></li>
+                    <li><a href="#abt"><i class="glyphicon glyphicon-info-sign"></i>About</a></li>
+                    <li><a href="#cont"><i class="glyphicon glyphicon-phone"></i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="home"></div>
+    <div id="" class="container body-content">
+        <div class="jumbotron">
+            <h1>Housing Estate</h1>
+            <p class="lead">Searching for the right home space can be hedious task, which calls for the right agency.</p>
+            <p>We rise to the task of finding you befitting home space within a short time span </p>
+            <p>To apply Fill the form below.</p>
+            <p><a href="#fform" class="btn btn-primary btn-large">Fill the Form&raquo;</a></p>
+        </div>
+
+        <hr id="abt"/>
+
+        <div id="about">
+            <h2>ABOUT.</h2>
+            <h3>What We Do?</h3>
+
+            <p>Use this area to provide additional information.</p>
+        </div>
+
+        <hr />
+
+        <div id="mission-vision" class="row">
+            <div class="col-md-6">
+                <h2>OUR MISSION</h2>
+                <p>We exist to provide world-class services int the area of </p>
+                <p>our core competence that leaves our clients</p>
+                <p>happy and thoroughly satisfied.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>OUR VISION</h2>
+                <p>To become the leading real estate company in Africa</p>
+                <p>providing world class real estate services that meet</p>
+                <p>our clients needs at all times.</p>
+
+            </div>
+        </div>
+
+        <hr id="fform"/>
+
+        <div id="fill-out">
+            <h2> Here is the fill out form</h2>
+            <form >
+                <p><input type="text" placeholder="FULLNAME" name="fullname:" width="200" /></p>
+                <p><input type="text" placeholder="" width="200" /></p>
+                <p><input type="text" placeholder="PHONE NO" name="phone_no:" width="200" /></p>
+                <p><input list="" placeholder="" width="200" /></p>
+                <p><input type="text" placeholder="" width="200" height="400" /></p>
+                <p id="submit-button"><input type="submit" /></p>
+            </form>
+        </div>
+
+        <hr id="cont"/>
+
+        <div id="contact">
+            <h2>CONTACT.</h2>
+            <h3>Here is our contact information.</h3>
+
+            <address>
+                We dey here!!<br />
+                No 44, Awati road, Lagos. <br />
+                <abbr title="Phone">P:</abbr>
+                +2349030133136
+            </address>
+
+            <address>
+                <strong>Support:</strong>   <a href="mailto:">victorotbabs@gmail.com</a><br />
+                <strong>Marketing:</strong> <a href="mailto:">victorotbabs@gmail.com</a>
+            </address>
+        </div>
+        <hr />
+        <footer>
+            <p>Copyright &copy; 2021 - housing</p>
+        </footer>
+    </div>
+
+
+    <script src="/static/scripts/jquery-1.10.2.js"></script>
+    <script src="/static/scripts/bootstrap.js"></script>
+    <script src="/static/scripts/respond.js"></script>
+    {% block scripts %}{% endblock %}
+
+</body>
+</html>
