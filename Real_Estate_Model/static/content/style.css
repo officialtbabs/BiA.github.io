@@ -1,0 +1,37 @@
+body
+{
+    color: black;
+    background-image: url("/static/images/background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mission-vision, #about, #contact{
+    text-align: center;
+   
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+}#header{
+     background-color: black;
+ }
+ hr{
+     margin: 50px;
+ }
+
+ #contact, #about{
+     padding: 8px;
+ }
+ body, h1, h2, h3{
+     font-family: 'Berlin Sans FB';
+ }
+
+ #fill-out{
+     text-align: center;
+ }
+ i{
+     padding: 5px;
+ }
+ li{
+     padding-top: 10px;
+ }
